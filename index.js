@@ -35,3 +35,5 @@ app.get("/cancel",(req,res)=>{
 app.listen(8080, () => {
     console.log("Server started at port 8080");
 }); 
+
+module.exports = app;
